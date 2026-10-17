@@ -7,7 +7,7 @@ This is a Java console application that can be used to copy data between two Swa
 - Some integrations, such as Webhook, may fail to copy because the GET request returns incomplete data, which in turn is rejected by the server when we do a POST request
 - The application is storing data in class objects, which means that if the structure of JSON response changes, the application will need to be reworked
 - Some values are hardcoded, such as path, filenames, page size query parameters in web requests for simplicity
-- Since there are no supported endpoints for recreating users and organisations they have to be recreated manually before running the application
+- Since there are no supported endpoints for recreating organisations they have to be recreated manually before running the application
 - All APIs are downloaded as `unresolved`
 - All copied documents by default have `private` visibility
 
